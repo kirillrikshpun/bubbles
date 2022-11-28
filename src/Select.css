@@ -1,0 +1,43 @@
+.select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputContainer {
+    display: flex;
+    column-gap: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.selectedItems {
+    display: flex;
+    column-gap: 2px;
+}
+
+.selectedOptions {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchOptions {
+    display: flex;
+    flex-direction: row;
+}
+
+.selectAllButton {
+    cursor: pointer;
+    color: salmon
+}
